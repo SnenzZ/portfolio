@@ -1,0 +1,82 @@
+/* Allgemeine Stile */
+body {
+  background-color: #f8f8f8!important;
+  font-family: 'Monocraft', monospace; /* Schriftart auf Monocraft ändern */
+  font-size: 18px; /* Größere Schriftgröße für den gesamten Text */
+}
+
+/* Profilbild */
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Profilbereich */
+.profile-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px; /* Größere Schriftgröße im Profilbereich */
+  font-family: 'Monocraft', monospace; /* Schriftart auf Monocraft ändern */
+}
+
+/* Projektliste */
+.project-list {
+  margin-left: 30px;
+  font-size: 18px; /* Größere Schriftgröße für die Projektliste */
+  font-family: 'Monocraft', monospace; /* Schriftart auf Monocraft ändern */
+}
+
+#container {
+  display: flex;
+}
+
+#center {
+  margin: auto;
+}
+
+.typewriter h3 {
+  width: auto;
+  display: inline-block; /* Inline-block für präzisere Kontrolle */
+  overflow: hidden; /* Verhindert, dass der Inhalt vor der Animation angezeigt wird */
+  border-right: 0.1em solid black; /* Der Typwriter-Cursor */
+  white-space: nowrap; /* Hält den Inhalt in einer einzigen Zeile */
+  letter-spacing: 0.1em; /* Abstand zwischen den Buchstaben anpassen */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  font-size: 24px; /* Größere Schriftgröße für den Typwriter-Effekt */
+  font-family: 'Monocraft', monospace; /* Schriftart auf Monocraft ändern */
+}
+
+/* Der Tipp-Effekt */
+@keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
+
+/* Der Cursor-Blinkeffekt */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+/* Allgemeine Stile für Liste */
+ul {
+  padding: 0;
+  list-style-type: none;
+  font-size: 18px; /* Größere Schriftgröße für allgemeine Listen */
+  font-family: 'Monocraft', monospace; /* Schriftart auf Monocraft ändern */
+}
+
+.social-links ul, li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.social {
+  width: 20px;
+  height: 20px;
+  font-size: 18px; /* Größere Schriftgröße für soziale Links */
+  font-family: 'Monocraft', monospace; /* Schriftart auf Monocraft ändern */
+}
