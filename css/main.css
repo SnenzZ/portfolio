@@ -80,3 +80,13 @@ ul {
   font-size: 18px; /* Größere Schriftgröße für soziale Links */
   font-family: 'Monocraft', monospace; /* Schriftart auf Monocraft ändern */
 }
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex-grow: 1; /* Damit die card-body den verfügbaren Platz einnimmt */
+}
+
